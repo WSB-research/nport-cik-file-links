@@ -1,0 +1,19 @@
+{
+    "name": "nport-file-links",
+    "version": "1.0.0",
+    "description": "Scraper/Crawler for building links to NPORT files, organized by CIK numbers",
+    "main": "index.js",
+    "scripts": {
+        "run": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "csv-writer": "^1.6.0",
+        "jsdom": "^16.2.1",
+        "request": "^2.88.2",
+        "sanitize-html": "^1.22.1"
+    }
+}
